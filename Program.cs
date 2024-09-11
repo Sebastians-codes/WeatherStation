@@ -31,7 +31,8 @@ int temp,
     input från användaren tas med metoder skriva i UserInput klassen.
     om användaren skriver klar så avbryts loopen och programmet fortsätter.
 */
-do {
+do
+{
     Console.Clear();
     Console.WriteLine(
         "Väder Rapport\n"
@@ -101,7 +102,8 @@ Console.Clear();
     En do while för att visa en meny för mina visualliseringar av hur bubbel och binary algorytmerna fungerar.
     dessa agerar på egen data inuti sina egna klasser.
 */
-do {
+do
+{
     Console.WriteLine("Jag har visualiserat BubbelSort och BinarySearch Algorytmerna.");
     demo = input.GetString(
         "[Bubbel] för att se hur BubbelSort fungerar.\n"
