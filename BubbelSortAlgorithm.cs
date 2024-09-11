@@ -20,11 +20,11 @@ public class BubbelSortAlgorithm
     public BubbelSortAlgorithm()
     {
         _random = new();
-        AllocateIntegerArray();
     }
 
     public void Sort()
     {
+        AllocateIntegerArray();
         /*
             lengthOfArray är längden av ints arrayen.
 
